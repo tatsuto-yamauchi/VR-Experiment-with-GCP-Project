@@ -1,5 +1,5 @@
 # VR-Experiment-Project
-## Project member
+** Project member
 Hoang Nam Nguyen, Uzairu Abubakar, Tatsuto Yamauchi
 
 　Please check the 'Human Behavior Experiment in Virtual Reality.pdf' file for the idea of this project and 'Healthy young adults implement distinctive avoidance strategies while walking and circumventing virtual human vs. non-human obstacles in a virtual environment' paper for the research idea.
