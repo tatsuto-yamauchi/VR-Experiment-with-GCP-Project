@@ -112,3 +112,4 @@ node server.js
 - Stronger server with better performance and safer security.
 - Better VR user experience.
 - Apply GUI to modify different experiment parameters, different obstacle sizes, and different kinds of 3D human models (weight, height, country, etc.) to fit with participants profile.
+- Collect data from some people to observe human behavior of avoidance strategy.
