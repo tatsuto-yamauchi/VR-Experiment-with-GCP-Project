@@ -1,8 +1,8 @@
 # VR-Experiment-Project
 **Group members:**    
-Hoang Nam Nguyen(hoang.nam.nguyen@etu.univ-st-etienne.fr)         
-Uzairu Abubakar(uzairu.abubakar@etu.univ-st-etienne.fr)   
-Tatsuto Yamauchi(tatsuto.yamauchi@etu.univ-st-etienne.fr)
+Hoang Nam Nguyen (hoang.nam.nguyen@etu.univ-st-etienne.fr)         
+Uzairu Abubakar (uzairu.abubakar@etu.univ-st-etienne.fr)   
+Tatsuto Yamauchi (tatsuto.yamauchi@etu.univ-st-etienne.fr)
 
 　Please check the 'Human Behavior Experiment in Virtual Reality.pdf' file for the idea of this project and 'Healthy young adults implement distinctive avoidance strategies while walking and circumventing virtual human vs. non-human obstacles in a virtual environment' paper for the research idea.
 
