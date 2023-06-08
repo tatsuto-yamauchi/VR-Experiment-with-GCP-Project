@@ -183,7 +183,6 @@ PleftL = leftCountL/leftConditionNum;
 avoidRightPercent = [PrightL; PrightC; PrightR];
 avoidLeftPercent = [PleftL; PleftC; PleftR];
 
-hold on
 X = categorical({'Left','Headon','Right'});
 X = reordercats(X,{'Left','Headon','Right'});
 bar(X,avoidRightPercent,'b')
@@ -194,11 +193,9 @@ xlabel('Object Position ')
 ylabel('Probability of Right Avoidance')
 grid on
 box on
-hold off
 savfilename = append('fig/', 'probabilityRight-', dataName, '.png');
 saveas(gcf,savfilename)
 
-hold on
 X = categorical({'Left','Headon','Right'});
 X = reordercats(X,{'Left','Headon','Right'});
 bar(X,avoidLeftPercent,'b')
@@ -209,6 +206,5 @@ xlabel('Object Position ')
 ylabel('Probability of Left Avoidance')
 grid on
 box on
-hold off
 savfilename = append('fig/', 'probabilityLeft-', dataName, '.png');
 saveas(gcf,savfilename)
