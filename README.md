@@ -82,7 +82,6 @@ However, for a better visualize representation (resolution, movement) of the mod
 
 　The SSL certificate for HTTPS communication is a Self-Signed Certificate.
 
-The URL will be provided via email
 
 ## 3. How to launch the server
 
@@ -101,7 +100,7 @@ node server.js
 
 # Result and Analysis
 
-1. The results from the experiment is stored in Google Drive. The URL will be provided via email.
+1. The results from the experiment is stored in Google Drive.
 2. Download the csv file from Google Drive and copy it to the 'csv' folder.
 3. Then open the analysis.m in Matlab and run entire the script:
     - The csv data will be converted to a table in 'mat' file and will be stored in 'Table' folder.
