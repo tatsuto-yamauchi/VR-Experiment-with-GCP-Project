@@ -1,4 +1,7 @@
-# VR-Experiment-Project
+# ReadMe
+
+　Please check the 'Human Behavior Experiment in Virtual Reality.pdf' file for the idea of this project and 'Healthy young adults implement distinctive avoidance strategies while walking and circumventing virtual human vs. non-human obstacles in a virtual environment' paper for the research idea.
+
 # VR experiment environment
 
 　We use Three.js to simulate the experiments.
@@ -13,6 +16,23 @@ The scales of the room and obstacles are made to fit with the limitation boundar
 In the experiment, there are 3 initial positions: left, head-on, and right. In each trial, obstacles in 1 of 3 positions will randomly move to approach the participant. Participant needs to avoid it when walking from the starting point (green) to the (ending point) red, we also add a torwarding point (blue) on the wall same as in the previous study. After reaching the red point, the participant will come back to the starting point to be ready for the next trial.
 
 There are 9 trials for each experiment condition of obstacles. The first 3 are used for training and preparation time. The last 6 trials will be used to analyze the results.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/08f1ad5c-62fb-4a19-858d-61d86ae4bea1/Untitled.png)
+
+# 3D Model Creation and Animation
+
+## 1. Virtual Human Static model and Mobility Robot Model
+
+ We captured the model using LumaAI, Models from Luma AI are not background dependent, the background is automatically segmented in the preprocessing stage.
+
+## 2.  Virtual Human Animation
+
+1. We captured the model using LumaAI, Models from Luma AI are not background dependent, the background is automatically segmented in the preprocessing stage.
+2. We used Blender to get an appropriate orientation of the model. Such as the direction and rotation.
+3. We use Mixamo to place markers on the joints of model and then apply walking animation as required by our experiment.
+4. Finally, we exported the animated model as Fbx file and visualized it using three.js.
+
+However, for a better visualize representation (resolution, movement) of the model for a good experiment, we utilized an available virtual human model online for our experiment.
 
 # Server
 
@@ -62,9 +82,7 @@ There are 9 trials for each experiment condition of obstacles. The first 3 are u
 
 　The SSL certificate for HTTPS communication is a Self-Signed Certificate.
 
-The google drive url for the data obtained is below.
-
-Contact for more details (via email)
+The URL will be provided via email
 
 ## 3. How to launch the server
 
@@ -76,3 +94,22 @@ sudo systemctl start apache2
 ```
 
 1. **Launch the Node.js server.**
+
+```jsx
+node server.js
+```
+
+# Result and Analysis
+
+1. The results from the experiment is stored in Google Drive. The URL will be provided via email.
+2. Download the csv file from Google Drive and copy it to the 'csv' folder.
+3. Then open the analysis.m in Matlab and run entire the script:
+    - The csv data will be converted to a table in 'mat' file and will be stored in 'Table' folder.
+    - The figure of graphs ( Probability of right/left circumvention & Path of participants every trial ) will be stored in 'fig' folder.
+    - The data of each trial will be stored in 'TrialData' folder.
+
+# Future work
+
+- Stronger server with better performance and safer security.
+- Better VR user experience.
+- Apply GUI to modify different experiment parameters, different obstacle sizes, and different kinds of 3D human models (weight, height, country, etc.) to fit with participants profile.
