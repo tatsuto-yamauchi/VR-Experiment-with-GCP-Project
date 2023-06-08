@@ -9,7 +9,7 @@ In VR mode, the participant will stay in a room: 5m width x 7.5m depth x 4m heig
 There are 3 types of obstacles:
 
 - Cylinder: 1.65m height
-- Virtual Human (static and animation): 1.65m height
+- Virtual Human (static and animation): 1.70m height
 - Mobility Robot: 90cm height
 The scales of the room and obstacles are made to fit with the limitation boundary of Meta Oculus 2.
 
