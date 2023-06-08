@@ -1,5 +1,5 @@
 # VR-Experiment-Project
-**Group members:**
+**Group members:**    
 Hoang Nam Nguyen　 email:hoang.nam.nguyen@etu.univ-st-etienne.fr         
 Uzairu Abubakar  email:uzairu.abubakar@etu.univ-st-etienne.fr   
 Tatsuto Yamauchi  email:tatsuto.yamauchi@etu.univ-st-etienne.fr
