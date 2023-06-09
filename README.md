@@ -17,7 +17,7 @@ There are 3 types of obstacles:
 - Mobility Robot: 90cm height
 The scales of the room and obstacles are made to fit with the limitation boundary of Meta Oculus 2.
 
-In the experiment, there are 3 initial positions: left, head-on, and right. In each trial, obstacles in 1 of 3 positions will randomly move to approach the participant. Participant needs to avoid it when walking from the starting point (green) to the (ending point) red, we also add a torwarding point (blue) on the wall same as in the previous study. After reaching the red point, the participant will come back to the starting point to be ready for the next trial.
+In the experiment, there are 3 initial positions: left, head-on, and right. In each trial, obstacles in 1 of 3 positions will randomly move to approach the participant. Participant needs to avoid it when walking from the starting point (green) to the ending point (red), we also add a torwarding point (blue) on the wall same as in the previous study. After reaching the red point, the participant will come back to the starting point to be ready for the next trial.
 
 There are 9 trials for each experiment condition of obstacles. The first 3 are used for training and preparation time. The last 6 trials will be used to analyze the results.
 
