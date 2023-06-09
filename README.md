@@ -1,4 +1,4 @@
-# VR-Experiment-Project
+# Human Behavior Experiment in Virtual Reality
 **Group members:**    
 - Hoang Nam Nguyen (hoang.nam.nguyen@etu.univ-st-etienne.fr)         
 - Uzairu Abubakar (uzairu.abubakar@etu.univ-st-etienne.fr)   
