@@ -4,7 +4,7 @@
 - Uzairu Abubakar (uzairu.abubakar@etu.univ-st-etienne.fr)   
 - Tatsuto Yamauchi (tatsuto.yamauchi@etu.univ-st-etienne.fr)
 
-　Please check the 'Human Behavior Experiment in Virtual Reality.pdf' file for the idea of this project and 'Healthy young adults implement distinctive avoidance strategies while walking and circumventing virtual human vs. non-human obstacles in a virtual environment' paper for the research idea.
+　Please check the 'Human Behavior Experiment in Virtual Reality.pdf' file for the idea of this project.
 
 # VR experiment environment
 
