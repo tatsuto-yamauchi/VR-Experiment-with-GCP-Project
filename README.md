@@ -109,7 +109,7 @@ node server.js
 3. Then open the analysis.m in Matlab and run entire the script:
     - The csv data will be converted to a table in 'mat' file and will be stored in 'Table' folder.
     - The figure of graphs ( Probability of right/left circumvention & Path of participants every trial ) will be stored in 'fig' folder.
-    - The data of each trial will be stored in 'TrialData' folder.
+    - The data of each trial will be stored in 'TrialData' folder.   
 Access the 'fig' folder inside the 'analysis' folder for some example results.
 
 # Future work
