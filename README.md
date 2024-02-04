@@ -21,7 +21,7 @@ In the experiment, there are 3 initial positions: left, head-on, and right. In e
 
 There are 9 trials for each experiment condition of obstacles. The first 3 are used for training and preparation time. The last 6 trials will be used to analyze the results.
 
-![Demo](VR_Project.jpeg)
+![Demo](VR_Project.png)
 
 # 3D Model Creation and Animation
 
